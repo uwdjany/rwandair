@@ -1,0 +1,420 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.img-log{
+    border-radius: 3rem;
+    width: 100px;
+    
+    
+
+
+}
+header{
+   
+width: 100%;
+top: 0;
+left: 0;
+display: flex;
+justify-content: space-between;
+z-index: 1000;
+padding: 30px 100px;
+align-items: center;
+position: sticky;
+top: 0px;
+z-index:9999 ;
+position: fixed;
+background-attachment: fixed;
+background:white;
+opacity: 0.9;
+height: 2rem;
+
+
+
+
+}
+.image1{
+    width: 100%;
+    height:95vh;
+    padding-bottom: 9rem;
+    margin-right: 9rem;
+object-fit: cover;
+margin-top: 2rem;
+
+    
+
+    
+}
+
+
+.container{
+    position: relative;
+    min-height: 100vh;
+    
+  
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom center;
+    flex-direction: column;
+    padding: 30px 100px;
+    background-image: linear-gradient(to bottom, darkblue, rgba(34, 135, 194, 0.89));
+    gap: 2rem;
+    
+/* background-image: linear-gradient(to right,rgba(242, 243, 247, 0.89),rgb(0, 0, 1.2)), 
+    
+url("images/back2.webp"); */
+/* color:white;
+   opacity:100;
+     */
+
+
+     /* background-color: blue; */
+}
+.image1{
+    padding-top: 50px;
+}
+html{
+  
+    scroll-behavior: smooth;
+}
+.navigation{
+    display: flex;
+   
+    opacity: 0.6;
+    background-attachment: fixed;
+position: sticky;
+top: 0px;
+z-index:9999 ;
+
+   
+}
+.navigation li{
+    list-style: none;
+    
+
+}
+.navigation li a{
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+    margin-left: 40px;
+    text-transform: uppercase;
+
+    padding: 3rem;
+    display: flex;
+    
+    /* background-color: rgb(153, 110, 2);
+    box-shadow: 0 1.2rem 2.4rem rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index:9999 ; */
+
+    
+}
+li a:hover,li a:active{
+    color: darkblue;
+    cursor: pointer;
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 100px 300px;
+    padding-left: 5rem;
+    padding-top: 1rem;
+
+}
+.content .text{
+    width: 100%;
+    max-width: 600px;
+}
+.content .text h2{
+    color: white;
+    font-weight: 300;
+    font-size: 5em;
+}
+.content .text h2 span{
+    font-weight: 700;
+    
+}
+.content .text .p1{
+    color: white;
+    font-weight: 700;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    margin: 20px 0;
+    
+
+}
+.btn{
+    position: relative;
+    display: inline-block;
+    padding: 20px 50px;
+    background: white;
+    color: black;
+    font-size: 1.1em;
+    font-weight: 700;
+    border-radius: 4rem;
+    text-decoration: none;
+    text-decoration: none;
+    transition: 0.25s;
+    
+}
+.btn-one:hover,.btn:active{
+    background: rgb(42, 76, 230);
+}
+.btn-one{
+    position: relative;
+    display: inline-block;
+    padding: 20px 50px;
+    background: white;
+    color: black;
+    font-size: 0.3em;
+    font-weight: 700;
+    border-radius: 4rem;
+    text-decoration: none;
+    text-decoration: none;
+    transition: 0.25s;
+    
+}
+.btn:hover,.btn-one:active{
+    background: rgb(42, 76, 230);
+}
+.sc{
+    color: black;
+    font-size: 3rem;
+}
+.text{
+    margin-top: 50px;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    /* margin-top: 3rem; */
+    
+}
+ 
+h1{
+    text-align: center;
+background-image: linear-gradient(to bottom ,yellow,black);
+  
+  color: transparent;
+    -webkit-background-clip: text;
+    font-size: 2rem;
+    text-align: center;
+    display: grid;
+    background-color: rgb(177, 177, 165);
+    
+
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+.rw{
+    background-image: linear-gradient(to bottom ,blue,yellow);
+  
+  color: transparent;
+    -webkit-background-clip: text;
+}
+.tour{
+    background-image: linear-gradient(to bottom ,yellow,blue);
+  
+  color: transparent;
+    -webkit-background-clip: text;
+}
+.book{
+    background-image: linear-gradient(to top,blue,yellow);
+  
+  color: transparent;
+    -webkit-background-clip: text;
+}
+.about-txt{
+   
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-top: 1rem;
+    
+}
+.second-para{
+    padding-left: 5rem;
+    padding-top: 1rem;
+
+}
+.first-paragraph{
+    padding-right: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+
+
+/* ...........section of contact ........... */
+
+.contact .row{
+    display: flex;
+    
+    flex-wrap: wrap;
+    gap:0.5rem;
+}
+
+.contact .row .map{
+    flex:1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    width: 200px;
+    height: 600px;
+    /* background-repeat: no-repeat; */
+    padding-left: 50px;
+    padding-top: 150px;
+    margin-top: 2px;
+    margin-bottom: 40px;
+    
+
+}
+
+.contact .row form{
+    flex:1 1 45rem;
+    padding:5rem 2rem;
+    text-align: center;
+}
+
+.contact .row form h3{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    /* color:#fff; */
+}
+
+.contact .row form .inputBox{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background:var(--bg);
+    border:var(--border);
+}
+
+.contact .row form .inputBox span{
+    color:black;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.contact .row form .inputBox input{
+    width: 100%;
+    padding:2rem;
+    font-size: 1.7rem;
+    color:black;
+    text-transform: none;
+    background:none;
+}
+.about-cont{
+    background-color: white;
+}
+.about-header{
+    /* background-color: gray; */
+    margin-top: 2rem;
+    background:rgb(0, 0, 1.2);
+opacity: 0.7;
+height: 2rem;
+}
+.heading-h1{
+    /* background-color: gray; */
+    margin-top: 2rem;
+    background:rgb(0, 0, 1.2);
+opacity: 0.7;
+/* height: 2rem; */
+}
+footer{
+    position: relative;
+    width: 100%;
+    background: rgba(34, 135, 194, 0.89);
+    min-height: 200px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   /* background: black; */
+   background: rgba(34, 135, 194, 0.89);
+}
+footer .social-icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+
+}
+footer .social-icon{
+    list-style: none;
+}
+footer .social-icon{
+    font-size: 2em;
+    color: white;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+footer .social-icon li{
+    list-style: none;
+}
+footer .social-icon li a{
+    font-size: 2rem;
+    color: white;
+    margin: 0 10px;
+    transition: 0.5s;
+    display: inline-block;
+
+}
+footer .social-icon li a:hover{
+    transform: translateY(-10px);
+    color: black;
+
+}
+footer p {
+    color: white;
+    text-align: center;
+    margin-top: 1.9rem;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+footer .wave{
+    position: absolute;
+    top: -32%;
+    left: 0;
+    width: 100%;
+    height: 100px;
+  background:black url("images/wave.png");
+    background-size: 1000px 100px;
+    
+}
+footer .wave#wave1{
+    z-index: 1000;
+    opacity: 1;
+bottom: 0;
+animation: anamateWave 4s linear infinite ;
+}
+
+  @keyframes anamateWave 
+  {
+      0%{
+          background-position-x:1000px ;
+      }
+  }
+  
+
+
+  /* booking ticket */
+   

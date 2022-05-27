@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background-image: linear-gradient(to right,rgba(93, 93, 211, 0.692) , rgba(85, 96, 255, 0.493) ), url("images/background.jpg"); 
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: buttom center; 
+  color: white;
+    /* color: transparent; */
+    /* -webkit-background-clip: text; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+ }
+
+/* .container{
+ overflow: hidden;
+   position: relative;
+   width: 900px;
+   background: white;
+   height: 550px;
+
+
+}  */
+
+/* .input{
+    background: none;
+    outline: none;
+    border: none;
+} */
+.form{
+    /* background: white; */
+    width: 1000px;
+    height: 600px;
+    overflow: hidden;
+    padding-top: 30px 50px;
+    gap: 2rem;
+    position: relative;
+    justify-items: center;
+    padding: 3rem;
+    padding-left: 18rem;
+    gap: 2rem;
+    justify-content: space-between;
+    gap: 4rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    align-items: center;
+ 
+    
+}
+
+.heading{
+    color: black;
+    padding-bottom: 4rem;
+    font-size: 4rem;
+    
+}
+
+label {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: right;
+    width: 400px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    color:black;
+    font-size: 1rem;
+    padding-left: 8rem;
+    padding-right: 7rem;
+    font-weight: 400;
+    margin-top: 10px;
+    font-size:30px ;
+  }
+  
+  input {
+    height: 30px;
+    flex: 0 0 200px;
+    margin-left: 10px;
+    padding-left: 6rem;
+    margin-top: 10px;
+    width: 490px;
+    
+
+    
+    
+    
+   
+    
+  }
