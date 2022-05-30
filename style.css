@@ -321,21 +321,28 @@ body{
     background:none;
 }
 .about-cont{
-    background-color: white;
+    
 }
 .about-header{
     /* background-color: gray; */
     margin-top: 2rem;
-    background:rgb(0, 0, 1.2);
+color: black;
 opacity: 0.7;
 height: 2rem;
+font-size: 2rem;
 }
 .heading-h1{
     /* background-color: gray; */
     margin-top: 2rem;
-    background:rgb(0, 0, 1.2);
+    background:white;
 opacity: 0.7;
+text-align: center;
+font-size: 3rem;
 /* height: 2rem; */
+background-image: linear-gradient(to bottom ,blue,yellow);
+  color: black;
+color: transparent;
+  -webkit-background-clip: text;
 }
 footer{
     position: relative;
